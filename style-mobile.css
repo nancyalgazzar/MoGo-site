@@ -1,0 +1,174 @@
+@media (width<480px) {
+    #secondpage{
+        height: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    .learn-more{
+        width: 50%;
+    }
+    .page-title{
+        width: 20%;
+    }
+    .about-imgs-container{
+        flex-direction:column;
+        width:80%;
+
+    }
+    .page-subtitle{
+        width: 50%;
+    }
+    .firstpage-mobile {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: auto;
+
+    }
+    .firstpage-mobile > .arrows{
+        display: inline;
+        width: 3%;
+    }
+    .horizontal-line{
+        display: none;
+    }
+    /* .about-rect{
+        height:20rem;
+    } */
+    .phone-image{
+        display:none;
+    }
+    #fifthpage{
+        display: none;
+    }
+     #sixthpage{
+        display: none;
+    }
+    #ninthpage{
+        height: 100%;
+    }
+    #tenthpage{
+        height: 100%;
+    }
+    .ninth-content{
+        flex-direction: column;
+        width:80%;
+        gap:1rem;
+    }
+    .subscribe{
+        width: 100%;
+    }
+.eight-clients{
+    flex-direction: column;
+    width:80%;
+    gap:1rem;
+}
+.eight-clients > img{
+    width:100%
+}
+.copy-writes{
+    width:40%
+}
+.open-map{
+    display:none;
+}
+.contacts-imgs{
+    padding-top: 2rem;
+    flex-direction: column;
+    width: 95%;
+    gap:1rem;
+    
+}
+.work-images{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work-img{
+    width: 100%;
+}
+#ninth-mobile-page .lorem-mobile{
+    width: 90%;
+}
+#ninth-mobile-page{
+    display: flex;
+    flex-direction: column;
+}
+.contacts-imgs > img{
+    width: 100%;
+}
+    .ninth-content > img{
+        width:100%
+    }
+     #seventhpage{
+        display: none;
+    }
+     #eigthpage{
+        height: 100%;
+        padding:1rem;
+    }
+    .tablet-image{
+        width:100%;
+    }
+    .services{
+        flex-direction:column;
+        width:80%;
+        gap:1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-img{
+        width: 100%;
+    }
+    .title-content{
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+    .lorem-mobile{
+        display: block;
+        width: 80%;
+    }
+    .about-lorem{
+        display: none;
+    }
+    .about-image{
+        width:100%
+    }
+    .header{
+        width: 90%;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+    }
+    .hamburger{
+    /* width: 2rem; */
+    height: 70%;
+    aspect-ratio: 1;
+    border: 2px solid #dcdada65;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20%;
+
+}
+.hamburger > img{
+    width: 80%;
+    height:4%;
+    
+}
+.content-image{
+    width: 70%;
+}
+.welcome-to-mogo{
+    display: none;
+}
+.slider{
+    width: 90%;
+}
+}
