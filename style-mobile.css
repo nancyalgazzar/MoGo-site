@@ -19,11 +19,19 @@
     .page-subtitle{
         width: 50%;
     }
+    .nav-bar{
+        display: none;
+    }
+     .nav-items{
+        display: none;
+    }
     .firstpage-mobile {
         display: flex;
         flex-direction: row;
         width: 80%;
         margin: auto;
+        justify-content: space-between;
+        align-items: center;
 
     }
     .firstpage-mobile > .arrows{
@@ -33,9 +41,30 @@
     .horizontal-line{
         display: none;
     }
-    /* .about-rect{
-        height:20rem;
-    } */
+    .about-rect{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        height: 20rem;
+
+    }
+    .numbers{
+    color: white;
+    font-weight: bold;
+    font-size: clamp(0.1rem, 9vw, 4rem);
+    text-transform: uppercase;
+}
+.under-text{
+    color: white;
+    font-weight: 250;
+    font-size: clamp(0.1rem, 3vw, 1.3rem);
+    text-transform: uppercase;
+}
+.lines{
+    width:100%;
+   border: 1px solid rgb(231, 229, 229);
+   rotate: 90deg;
+}
     .phone-image{
         display:none;
     }
@@ -57,7 +86,7 @@
         gap:1rem;
     }
     .subscribe{
-        width: 100%;
+        width: 90%;
     }
 .eight-clients{
     flex-direction: column;
@@ -127,13 +156,7 @@
         padding-top:1rem;
         padding-bottom:1rem;
     }
-    .lorem-mobile{
-        display: block;
-        width: 80%;
-    }
-    .about-lorem{
-        display: none;
-    }
+
     .about-image{
         width:100%
     }
@@ -143,10 +166,14 @@
         margin-left: auto;
         margin-right: auto;
         justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    .client-item{
+        width: 90%;
     }
     .hamburger{
-    /* width: 2rem; */
-    height: 70%;
+    width: 10%;
+    height: 10%;
     aspect-ratio: 1;
     border: 2px solid #dcdada65;
   
@@ -157,18 +184,93 @@
     gap:20%;
 
 }
-.hamburger > img{
+
+.burger-lines{
+    border: none;
+    border-top: 2px solid #dcdada65;
     width: 80%;
-    height:4%;
-    
 }
 .content-image{
     width: 70%;
 }
-.welcome-to-mogo{
+.page1-welcome{
     display: none;
 }
-.slider{
+
+.page1-creative{
+    padding-bottom: 1rem;
+
+}
+.learn-more-button{
+width: 30%;
+font-size: clamp(0.1rem, 2.5vw, 1rem);
+border: 2px solid white;
+padding: 0.2rem;
+
+
+}
+.blogs{
     width: 90%;
 }
+.instagram{
+    width: 90%;
+}
+.blog-item{
+    width: 100%;
+}
+.view-img{
+    width: 50%;
+}
+}
+@media (width<800px) {
+    .services{
+        flex-direction:column;
+        width:80%;
+        gap:1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-img{
+        width: 10%;
+    }
+    .service-item{
+        width: 100%;
+    }
+    .horizontal-line{
+        display: none;
+    }
+    .item-lorem{
+        font-size: clamp(0.1rem, 2vw, 0.6rem);
+    }
+    .item-title{
+        font-size: clamp(0.1rem, 2vw, 0.8rem);
+    }
+    .numbers{
+        font-size: clamp(0.5rem, 2vw, 1rem);
+
+    }
+    .under-text{
+        font-size: clamp(0.5rem, 2vw, 0.7rem);
+
+    }
+     .six-content{
+        flex-direction: column;
+     }
+    .fifth-content{
+        flex-direction: column;
+        width: 80%;
+        gap: 1rem;
+    }
+    .eight-clients{
+        width:80%;
+        gap:1rem;
+    }
+    .fifth-image{
+        width: 100%;
+    }
+    .fifth-text{
+                width: 100%;
+
+    }
+
 }
